@@ -11,11 +11,11 @@
   <body>
     <div class="root">
       <div class="scores">
-      <h1 id="score"></h1>
-      <h1 id="best-score"></h1>
-      <h3 class="option info">Press Escape (esc) to pause.</h3>
+        <h1 id="score"></h1>
+        <h1 id="best-score"></h1>
+        <h3 class="option info">Press Escape (esc) to pause.</h3>
       </div>
-      <canvas id="board" width="600" height="600"></canvas>
+      <canvas id="board" width="500" height="500"></canvas>
     </div>
     <div id="overlay" class="visible">
       <div class="overlay__container">
@@ -87,12 +87,13 @@
             <ul>
               <li>Feed the Hungry Snake by moving it across the field.</li>
               <li>
-                Snake will pass the boundary and will enter from opposite side.
+                Snake will wrap around to the other side when it reaches the
+                boundary.
               </li>
-              <li>You will lose the Game if the Snake eat itself.</li>
+              <li>Snake bites its own tail, You'll lose the Game.</li>
             </ul>
           </div>
-          <button id="MainButton2">Let's Begin</button>
+          <button id="MainButton2">Let's Start Begin</button>
         </div>
       </div>
     </div>

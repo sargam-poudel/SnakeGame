@@ -5,7 +5,7 @@ export const themes = {
     snake: "#f8f8f2",
   },
   Pink: {
-    bg: "pink",
+    bg: "light pink",
     food: "red",
     snake: "black",
   },
